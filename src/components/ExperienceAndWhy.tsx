@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Traditional Sailing",
-  description: "Propelled by the gentle winds, these elegant vessels navigate the Nile without the noise of engines, offering a serene and environmentally friendly journey",
+  title: "Authentic Dahabiya Cruises",
+  description: "Sail the Nile aboard elegant, wind-powered sailboats evoking Egypt’s golden age of travel.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Cultural Immersion",
-  description: "Daily excursions to lesser-known temples, villages, and markets provide authentic insights into Egyptian life and heritage.",
+  title: "Artisan Design Aesthetic",
+  description: "Stylish interiors feature handcrafted Egyptian textiles and minimalist decor with historical charm.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Personalized Service",
-  description: "With a limited number of guests per cruise, the attentive crew ensures a personalized and comfortable experience throughout the voyage",
+  title: "Immersive Slow Travel",
+  description: "Unhurried itineraries allow deeper exploration of temples, tombs, and timeless Nile villages.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Scenic Itineraries",
-  description: "Explore the Nile's most iconic sites, including Luxor, Aswan, and the Valley of the Kings, all while enjoying breathtaking views from your dahabiya.",
+  title: "Locally Sourced Menus",
+  description: "Fresh, organic meals are prepared daily by onboard chefs using regional ingredients.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Nour El Nil Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
